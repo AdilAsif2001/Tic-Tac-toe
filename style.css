@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .game{
@@ -24,7 +23,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-
 }
 
 .box{
@@ -59,11 +57,15 @@ body{
 #msg{
     color: white;
     font-size: 5vmin;
-
 }
 
-.msg-containner{
-    height: 30vmin;
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .hide{
